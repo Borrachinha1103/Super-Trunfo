@@ -5,7 +5,7 @@ int main() {
     char estado, estado2; 
     char codigo[4], codigo2[4];
     char nome[50], nome2 [50];
-    int pop, pop2;
+    unsigned long int pop, pop2;
     float area, area2;
     float pb, pb2;
     int ponto, ponto2;
@@ -23,7 +23,7 @@ int main() {
     scanf (" %49[^\n]", nome);
 
     printf ("População:");
-    scanf ("%d", &pop);
+    scanf ("%lu", &pop);
 
     printf ("Área em km²:");
     scanf ("%f", &area);
@@ -47,7 +47,7 @@ int main() {
     scanf (" %49[^\n]", nome2);
 
     printf ("População:");
-    scanf ("%d", &pop2);
+    scanf ("%lu", &pop2);
 
     printf ("Área em km²:");
     scanf ("%f", &area2);
@@ -76,7 +76,7 @@ int main() {
     printf ("O estado é: %c\n", estado);
     printf ("O Código da carta é: %s\n", codigo);
     printf ("O nome da cidade é: %s\n", nome);
-    printf ("População: %d\n", pop);
+    printf ("População: %lu\n", pop);
     printf ("Área em KM²: %.2f KM²\n", area);
     printf ("PIB: %.2f bilhões de reais\n", pb);
     printf ("Número de pontos turísticos: %d\n", ponto);
@@ -88,7 +88,7 @@ int main() {
     printf ("O estado é: %c\n", estado2);
     printf ("O Código da carta é: %s\n", codigo2);
     printf ("O nome da cidade é: %s\n", nome2);
-    printf ("População: %d\n", pop2);
+    printf ("População: %lu\n", pop2);
     printf ("Área em KM²: %.2f KM²\n", area2);
     printf ("PIB: %.2f bilhões de reais\n", pb2);
     printf ("Número de pontos turísticos: %d\n", ponto2);
